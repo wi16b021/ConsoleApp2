@@ -10,11 +10,13 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            //test
-            Console.WriteLine();
-            
-            //schreiben
-            //Christoph was here
+
+            NiceTest();
+        }
+
+        static public void NiceTest()
+        {
+            Console.Beep(1200, 3000);
         }
     }
 }
