@@ -16,7 +16,7 @@ namespace ConsoleApp2
 
         static public void NiceTest()
         {
-            Console.Beep(1200, 3000);
+            Console.Beep(250, 3000);
         }
     }
 }
